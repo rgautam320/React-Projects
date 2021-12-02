@@ -1,0 +1,161 @@
+/* For the Navbar Height  */
+.navbar-height {
+   padding: 10px;
+}
+
+/* For Recipe Card */
+.recipe-card {
+   background-color: aliceblue;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.recipe-card figure {
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+.recipe-card img {
+   border-radius: 20px;
+   width: 100%;
+   transition: all 1s;
+   cursor: all-scroll;
+}
+
+.recipe-card img:hover {
+   transform: scale(1.1);
+}
+
+.input-search {
+   width: 75%;
+   padding: 10px 20px;
+   outline: none;
+   border: 1px solid grey;
+   border-radius: 20px;
+}
+
+.btn-search {
+   width: 20%;
+   padding: 8px !important;
+}
+
+.input-field {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.see-more-btn {
+   transition: all 1s !important;
+}
+
+.see-more-btn:hover {
+   transform: scale(1.05) translateX(3px) translateY(-3px);
+}
+
+.my-heading {
+   height: 55px;
+}
+
+/* Dialog Box  */
+.dialog-box {
+   height: 100%;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.dialog-heading h2 {
+   font-size: 2rem;
+}
+
+.MuiDialog-container {
+   width: 800px !important;
+}
+
+.MuiDialog-paperWidthSm {
+   max-width: 800px !important;
+}
+
+.my-dialog-div {
+   background-color: beige;
+   width: 700px !important;
+}
+
+.dialog-recipe-card {
+   width: 100%;
+   margin: auto;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.dialog-recipe-card img {
+   border-radius: 20px;
+   width: 100%;
+   transition: all 1s;
+   cursor: all-scroll;
+}
+
+/* Adding Media Queries for Responsive Design  */
+@media (max-width: 767px) {
+   .MuiDialog-container {
+      width: 600px !important;
+   }
+
+   .MuiDialog-paperWidthSm {
+      max-width: 600px !important;
+   }
+
+   .my-dialog-div {
+      background-color: beige;
+      width: 500px !important;
+   }
+}
+
+@media (max-width: 576px) {
+   .MuiDialog-container {
+      width: 500px !important;
+   }
+
+   .MuiDialog-paperWidthSm {
+      max-width: 500px !important;
+   }
+
+   .my-dialog-div {
+      background-color: beige;
+      width: 450px !important;
+   }
+
+   .dialog-box {
+      height: 90%;
+   }
+
+   .input-field {
+      flex-direction: column;
+   }
+
+   .input-search {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   .btn-search {
+      width: 60%;
+   }
+}
+
+@media (max-width: 450px) {
+   .MuiDialog-container {
+      width: 400px !important;
+   }
+
+   .MuiDialog-paperWidthSm {
+      max-width: 400px !important;
+   }
+
+   .my-dialog-div {
+      background-color: beige;
+      width: 350px !important;
+   }
+}

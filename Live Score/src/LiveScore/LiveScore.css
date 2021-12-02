@@ -1,0 +1,28 @@
+.table-heading {
+   border: 1px solid black;
+}
+
+.row-height {
+   height: 60px;
+}
+
+.col-1,
+.col-3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.my-card {
+   background-color: beige;
+   padding: 20px 10px;
+   border-radius: 20px;
+}
+
+Button {
+   outline: none;
+}
+
+Button:focus {
+   outline: none;
+}
