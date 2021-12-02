@@ -6,7 +6,7 @@ This Project was made by Rajan Gautam using React, Bootstrap, Material-UI and AP
 
 This site's published on the given URL.
 
-Link: https://rgautam320-recipe-app.netlify.app
+### [Live Link](https://rgautam320-recipe-app.netlify.app)
 
 ## Steps to Run the Application
 

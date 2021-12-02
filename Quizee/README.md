@@ -6,7 +6,7 @@ This project was made by Rajan Gautam using React, Bootstrap, Material-UI and AP
 
 This site's published on the given URL.
 
-Link: https://rgautam320-quizee.netlify.app
+### [Live Link](https://rgautam320-quizee.netlify.app)
 
 ## Steps to Run the Application
 

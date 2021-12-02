@@ -6,7 +6,7 @@ This project was made by Rajan Gautam using React and Bootstrap.
 
 This site's published on the given URL.
 
-Link: https://rgautam320-today-weather-app.netlify.app
+### [Live Link](https://rgautam320-today-weather-app.netlify.app)
 
 ## Steps to Run the Application
 

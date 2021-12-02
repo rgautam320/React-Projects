@@ -6,7 +6,7 @@ This project was made by Rajan Gautam using React, Bootstrapa and Material-UI.
 
 This site's published on the given URL.
 
-Link: https://rgautam320-touchy-keep.netlify.app
+### [Live Link](https://rgautam320-touchy-keep.netlify.app)
 
 ## Steps to Run the Application
 
