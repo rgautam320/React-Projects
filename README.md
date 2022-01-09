@@ -1,4 +1,4 @@
-# ToDo App by Rajan Gautam
+# React Apps by Rajan Gautam
 
 This Repository contains all the projects in React
 
