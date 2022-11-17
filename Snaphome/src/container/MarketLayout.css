@@ -1,0 +1,46 @@
+.upper-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-heading {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.search-box-mobile {
+    display: none;
+}
+
+.filter-grid {
+    background-color: white !important;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.filter-grid div {
+    background-color: white !important;
+}
+
+.date-picker {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .page-heading {
+        width: 100%;
+    }
+    .search-box {
+        display: none;
+    }
+    .search-box-mobile {
+        display: block;
+    }
+}

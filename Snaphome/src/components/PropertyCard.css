@@ -1,0 +1,15 @@
+.property-card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.1s ease-in !important;
+}
+
+.property-card:hover {
+    transform: scale(1.02);
+}
+
+.span-line {
+    color: rgb(171, 171, 171);
+    font-weight: bold;
+}

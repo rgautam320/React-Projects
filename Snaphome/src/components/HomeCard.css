@@ -1,0 +1,21 @@
+.home-card {
+    cursor: pointer;
+    margin: 0;
+    transition: all 0.1s ease-in;
+    max-width: 540px;
+    margin: auto;
+}
+
+.home-card:hover {
+    transform: scale(1.05);
+}
+
+.home-link {
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s ease;
+}
+
+.home-link:hover {
+    font-weight: bold;
+}

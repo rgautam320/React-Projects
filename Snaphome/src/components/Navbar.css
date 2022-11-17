@@ -1,0 +1,88 @@
+.navbar {
+    background-color: transparent !important;
+    padding: 1em 2rem;
+}
+
+.container {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.nav-item-box {
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item-box:last-child {
+    justify-content: end;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    vertical-align: middle;
+}
+
+.nav-item:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.logo {
+    font: 700 2.5rem "Ubuntu" !important;
+    margin: 0 auto;
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: titleAnimation 15s linear infinite;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@keyframes titleAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-item-box {
+        display: none;
+    }
+    .mobile-menu {
+        width: 25%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .mobile-menu .hamburger-menu {
+        color: black;
+    }
+
+    .mobile-drawer {
+        background-color: white;
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .mobile-drawer .nav-item {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+}
