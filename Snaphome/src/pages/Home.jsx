@@ -36,7 +36,7 @@ const Home = () => {
             alt: "Sell a Home",
             title: "Sell a Home",
             desc: "No matter what path you take to sell your home, we can always help you to navigate to a successful sale.",
-            link: "/sale",
+            link: "/sell",
             linkText: "Sell Here",
         },
         {
